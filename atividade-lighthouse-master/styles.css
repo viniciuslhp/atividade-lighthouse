@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #000000; /* Texto preto para máximo contraste */
+  background-color: #ffffff; /* Fundo branco para uma boa base */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #003366; /* Azul escuro para bom contraste */
+  color: #ffffff; /* Texto branco para contraste máximo */
+  padding: 1em;
+  text-align: center;
+}
+
+/* Main Content Styles */
+main {
+  padding: 2em;
+}
+
+/* Headings */
+h1, h2 {
+  color: #003366; /* Azul escuro para contrastar bem com o fundo claro */
+  margin-bottom: 0.5em;
+}
+
+/* Form Styles */
+form {
+  background-color: #f9f9f9; /* Cinza claro para o formulário, mantendo o contraste adequado */
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra leve para destacar o formulário */
+}
+
+/* Input Styles */
+input {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  width: 100%;
+  border: 1px solid #cccccc; /* Borda cinza clara */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+  background-color: #0044cc; /* Azul forte para o botão */
+  color: #ffffff; /* Texto branco para contraste */
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0033a0; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #003366; /* Azul escuro para o rodapé */
+  color: #ffffff; /* Texto branco para contraste máximo */
+  text-align: center;
+  padding: 1em;
+}
